@@ -20,7 +20,7 @@ default = {
 
 }
  variable "sg_name" {
- default = "allow-all-terraform"
+ default = "allow-all-terraform-default"     
  type = string
  }
 
