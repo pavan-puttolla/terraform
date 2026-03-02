@@ -11,3 +11,13 @@ variable "zone_id" {
  variable "domain_name" {
     default = "pspk.online"
  }
+
+ variable  "fruits" {
+  type = list(string)
+  default= ["apple", "banana", "apple", "orage"]
+  }
+
+  variable  "fruits_set" {
+  type = set(string)
+  default= ["apple", "banana", "apple", "orage"]
+  }
